@@ -46,10 +46,10 @@ applications:
 
 services:
   - promotions-manager-docdb:
-    input_values:
-      - USERNAME: $DB_USERNAME
-      - PASSWORD: $DB_PASSWORD
-      - SANDBOX_ID: ${SandboxID}
+      input_values:
+        - USERNAME: $DB_USERNAME
+        - PASSWORD: $DB_PASSWORD
+        - SANDBOX_ID: ${SandboxID}
 
 debugging:
   availability: on
